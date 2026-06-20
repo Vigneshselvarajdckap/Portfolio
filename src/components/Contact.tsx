@@ -17,7 +17,7 @@ const Contact = () => {
 
         <div className="space-y-4">
           <p className="text-xl">
-            📧 vigneshselvarajdckap@gmail.com
+            📧 svigneshselvaraj046@gmail.com
           </p>
 
           <p className="text-xl">
@@ -25,7 +25,7 @@ const Contact = () => {
           </p>
 
           <p className="text-xl">
-            💻 GitHub: github.com/yourusername
+            💻 GitHub: github.com/Vigneshselvarajdckap
           </p>
         </div>
 

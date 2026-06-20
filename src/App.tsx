@@ -12,8 +12,13 @@ function App() {
       <Hero />
       <About />
       <Skills />
-      <Projects />
-      <Contact />
+      <section id="projects">
+        <Projects />
+      </section>
+
+      <section id="contact">
+        <Contact />
+      </section>
     </>
   );
 }
