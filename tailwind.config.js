@@ -8,4 +8,7 @@ theme: {
 extend: {},
 },
 plugins: [],
+animation: {
+  float: "float 3s ease-in-out infinite"
+}
 }
