@@ -7,24 +7,28 @@ const Projects = () => {
       image: "/images/ecom.jpeg",
       desc: "Modern shopping app with cart, checkout and responsive UI.",
       tech: ["React", "Tailwind", "JavaScript"],
+      link: "https://shopvphere.netlify.app/",
     },
     {
       title: "Admin Dashboard",
       image: "/images/ecom1.jpeg",
       desc: "Analytics dashboard with charts, orders and user management.",
       tech: ["React", "TypeScript", "Tailwind"],
+      link: "https://shopvphere.netlify.app/",
     },
     {
       title: "Weather App",
       image: "/images/weather.png",
       desc: "Real-time weather application with API integration.",
       tech: ["HTML", "CSS", "JavaScript"],
+      link: "https://shopvphere.netlify.app/",
     },
     {
       title: "Music App",
       image: "/images/music.png",
       desc: "Responsive music player with smooth UI controls.",
       tech: ["HTML", "CSS", "JavaScript"],
+      link: "https://shopvphere.netlify.app/",
     },
   ];
 
@@ -78,9 +82,12 @@ const Projects = () => {
                 </div>
 
                 <div className="flex gap-4">
-                  <button className="bg-blue-500 px-5 py-2 rounded-lg hover:bg-blue-600">
-                    Live Demo
-                  </button>
+                  <a href={project.link} rel="noopener noreferrer" target="_blank">
+                    <button className="bg-blue-500 px-5 py-2 rounded-lg hover:bg-blue-600">
+                      Live Demo
+                    </button>
+                  </a>
+
 
                   <button className="border border-blue-400 px-5 py-2 rounded-lg hover:bg-blue-500">
                     GitHub

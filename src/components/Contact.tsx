@@ -27,16 +27,18 @@ const Contact = () => {
         </p>
 
         <div className="bg-white/5 backdrop-blur-lg border border-white/10 rounded-3xl p-10 shadow-lg">
-          
+
           <p className="text-gray-300 text-lg mb-5">
             📧 svigneshselvaraj046@gmail.com
           </p>
 
           <div className="flex justify-center gap-4 flex-wrap mt-8">
-            
+
             <a
               href="mailto:svigneshselvaraj046@gmail.com"
               className="bg-blue-500 px-6 py-3 rounded-xl hover:bg-blue-600 transition flex items-center gap-2"
+              // target="_blank"
+              // rel="noopener noreferrer"
             >
               <FaEnvelope />
               Email Me
@@ -55,6 +57,8 @@ const Contact = () => {
             <a
               href="https://www.linkedin.com/in/vignesh-selvaraj-/"
               className="border border-blue-400 px-6 py-3 rounded-xl hover:bg-blue-500 transition flex items-center gap-2"
+              target="_blank"
+              // rel="noopener noreferrer"
             >
               <FaLinkedin />
               LinkedIn
