@@ -4,10 +4,11 @@ const Projects = () => {
   const projects = [
     {
       title: "E-Commerce App",
-      image: "/images/ecom.jpeg",
+      image: "/images/E-commer.png",
       desc: "Modern shopping app with cart, checkout and responsive UI.",
       tech: ["React", "Tailwind", "JavaScript"],
       link: "https://shopvphere.netlify.app/",
+      gitLink:"https://github.com/Vigneshselvarajdckap/E-commerce.git",
     },
     {
       title: "Admin Dashboard",
@@ -15,6 +16,7 @@ const Projects = () => {
       desc: "Analytics dashboard with charts, orders and user management.",
       tech: ["React", "TypeScript", "Tailwind"],
       link: "https://shopvphere.netlify.app/",
+      gitLink:"https://github.com/Vigneshselvarajdckap/E-commerce.git",
     },
     {
       title: "Weather App",
@@ -22,6 +24,7 @@ const Projects = () => {
       desc: "Real-time weather application with API integration.",
       tech: ["HTML", "CSS", "JavaScript"],
       link: "https://shopvphere.netlify.app/",
+      gitLink:"https://github.com/Vigneshselvarajdckap/E-commerce.git",
     },
     {
       title: "Music App",
@@ -29,6 +32,7 @@ const Projects = () => {
       desc: "Responsive music player with smooth UI controls.",
       tech: ["HTML", "CSS", "JavaScript"],
       link: "https://shopvphere.netlify.app/",
+      gitLink:"https://github.com/Vigneshselvarajdckap/E-commerce.git",
     },
   ];
 
@@ -89,9 +93,11 @@ const Projects = () => {
                   </a>
 
 
-                  <button className="border border-blue-400 px-5 py-2 rounded-lg hover:bg-blue-500">
-                    GitHub
-                  </button>
+                  <a href={project.gitLink} rel="noopener noreferrer" target="_blank">
+                    <button className="border border-blue-400 px-5 py-2 rounded-lg hover:bg-blue-500">
+                      GitHub
+                    </button>
+                  </a>
                 </div>
               </div>
             </motion.div>

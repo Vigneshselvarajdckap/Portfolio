@@ -47,14 +47,18 @@ const Hero = () => {
           </p>
 
           {/* Buttons */}
+          {/* Buttons */}
           <div className="flex flex-wrap gap-4 mb-10">
-            <button className="bg-gradient-to-r from-blue-500 to-cyan-500 px-8 py-3 rounded-xl font-semibold hover:scale-105 transition">
+            <a
+              href="#projects"
+              className="bg-gradient-to-r from-blue-500 to-cyan-500 px-8 py-3 rounded-xl font-semibold hover:scale-105 transition inline-block"
+            >
               View My Work →
-            </button>
+            </a>
 
             <a
-              href=".../public/resume/Vignesh-Resume.pdf"
-              download
+              href="/resume/Vignesh-Resume.pdf"
+              download="Vignesh-Resume.pdf"
               className="border border-blue-400 px-8 py-3 rounded-xl hover:bg-blue-500 transition inline-block"
             >
               Download Resume
