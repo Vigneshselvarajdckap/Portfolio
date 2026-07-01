@@ -6,9 +6,18 @@ const Projects = () => {
       title: "E-Commerce App",
       image: "/images/E-commer.png",
       desc: "Modern shopping app with cart, checkout and responsive UI.",
-      tech: ["React", "Tailwind", "JavaScript"],
+      tech: [
+        "React",
+        "TypeScript",
+        "Tailwind CSS",
+        "Firebase",
+        "Cloudinary",
+        "Context API",
+        "Git",
+        "Netlify",
+      ],
       link: "https://shopvphere.netlify.app/",
-      gitLink:"https://github.com/Vigneshselvarajdckap/E-commerce.git",
+      gitLink: "https://github.com/Vigneshselvarajdckap/E-commerce.git",
     },
     {
       title: "Admin Dashboard",
@@ -16,7 +25,7 @@ const Projects = () => {
       desc: "Analytics dashboard with charts, orders and user management.",
       tech: ["React", "TypeScript", "Tailwind"],
       link: "https://shopvphere.netlify.app/",
-      gitLink:"https://github.com/Vigneshselvarajdckap/E-commerce.git",
+      gitLink: "https://github.com/Vigneshselvarajdckap/E-commerce.git",
     },
     {
       title: "Weather App",
@@ -24,7 +33,7 @@ const Projects = () => {
       desc: "Real-time weather application with API integration.",
       tech: ["HTML", "CSS", "JavaScript"],
       link: "https://shopvphere.netlify.app/",
-      gitLink:"https://github.com/Vigneshselvarajdckap/E-commerce.git",
+      gitLink: "https://github.com/Vigneshselvarajdckap/E-commerce.git",
     },
     {
       title: "Music App",
@@ -32,7 +41,7 @@ const Projects = () => {
       desc: "Responsive music player with smooth UI controls.",
       tech: ["HTML", "CSS", "JavaScript"],
       link: "https://shopvphere.netlify.app/",
-      gitLink:"https://github.com/Vigneshselvarajdckap/E-commerce.git",
+      gitLink: "https://github.com/Vigneshselvarajdckap/E-commerce.git",
     },
   ];
 
