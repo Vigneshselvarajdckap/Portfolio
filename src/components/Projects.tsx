@@ -40,8 +40,8 @@ const Projects = () => {
       image: "/images/music.png",
       desc: "Responsive music player with smooth UI controls.",
       tech: ["HTML", "CSS", "JavaScript"],
-      link: "https://shopvphere.netlify.app/",
-      gitLink: "https://github.com/Vigneshselvarajdckap/E-commerce.git",
+      link: "https://vpsongs.netlify.app/",
+      gitLink: "https://github.com/Vigneshselvarajdckap/Online_music.git",
     },
   ];
 
