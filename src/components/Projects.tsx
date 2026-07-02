@@ -32,8 +32,8 @@ const Projects = () => {
       image: "/images/weather.png",
       desc: "Real-time weather application with API integration.",
       tech: ["HTML", "CSS", "JavaScript"],
-      link: "https://shopvphere.netlify.app/",
-      gitLink: "https://github.com/Vigneshselvarajdckap/E-commerce.git",
+      link: "https://weatherappvp.netlify.app/",
+      gitLink: "https://github.com/Vigneshselvarajdckap/Weather_App.git",
     },
     {
       title: "Music App",
